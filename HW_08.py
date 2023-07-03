@@ -1,15 +1,15 @@
 from datetime import datetime, timedelta
 
 users = [
-    {'name': 'John', 'birthday': datetime(2023, 6, 30)},
-    {'name': 'Jane', 'birthday': datetime(2023, 7, 1)},
-    {'name': 'Bob', 'birthday': datetime(2023, 7, 2)},
-    {'name': 'Alice', 'birthday': datetime(2023, 7, 3)},
-    {'name': 'David', 'birthday': datetime(2023, 7, 4)},
-    {'name': 'Eva', 'birthday': datetime(2023, 7, 5)},
-    {'name': 'Mike', 'birthday': datetime(2023, 7, 6)},
-    {'name': 'Anna', 'birthday': datetime(2023, 7, 7)},
-    {'name': 'Tom', 'birthday': datetime(2023, 7, 8)},
+    {'name': 'John', 'birthday': datetime(2023, 7, 30)},
+    {'name': 'Jane', 'birthday': datetime(2023, 8, 1)},
+    {'name': 'Bob', 'birthday': datetime(2023, 8, 2)},
+    {'name': 'Alice', 'birthday': datetime(2023, 9, 3)},
+    {'name': 'David', 'birthday': datetime(2023, 8, 4)},
+    {'name': 'Eva', 'birthday': datetime(2023, 8, 5)},
+    {'name': 'Mike', 'birthday': datetime(2023, 8, 6)},
+    {'name': 'Anna', 'birthday': datetime(2023, 8, 7)},
+    {'name': 'Tom', 'birthday': datetime(2023, 8, 8)},
 ]
 
 
