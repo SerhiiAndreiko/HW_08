@@ -32,14 +32,17 @@ def get_birthdays_per_week(users):
                 congrats[birthday].append(user['name'])
             else:
                 congrats[birthday] = [user['name']]
+
+    sorted_dates = sorted(congrats.keys())
             
-    for bd, users in congrats.items():
-        print(f'{bd.strftime("%A")}: {", ".join(users)}')
+    for bd in sorted_dates:
+        print(f'{bd.strftime("%A")}: {", ".join(congrats[bd])}')
             
 
 
 if __name__ == "__main__":
     get_birthdays_per_week(users)
+
 
 
 
